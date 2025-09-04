@@ -94,7 +94,7 @@
 #battery {
   background-color: #3a3d4b;
   padding: 0.3rem 0.7rem;
-  margin: 5px 0px; 
+  margin: 5px 0px;
   border-radius: 0;
   box-shadow: none;
   min-width: 0;
@@ -104,10 +104,10 @@
 
 #custom-lock {
   background-color: #3a3d4b;
-  padding: 0.3rem 0.7rem;
-  margin: 5px 0px; 
+  padding: 0.7rem;
+  margin: 5px 0px;
   margin-left: 5px;
-  margin-right: 7px; 
+  margin-right: 7px;
   border-radius: 6px;
   box-shadow: none;
   min-width: 0;
@@ -129,7 +129,7 @@
 }
 
 #bluetooth {
-  margin-left: 0px; 
+  margin-left: 0px;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
 }

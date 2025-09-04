@@ -14,7 +14,7 @@
   "modules-right": [
     "bluetooth",
     "network",
-    "pulseaudio", 
+    "pulseaudio",
     "backlight",
     "memory",
     "battery",
@@ -32,7 +32,7 @@
   "bluetooth": {
     "format": "󰂲",
     "format-on": "{icon}",
-    "format-off": "{icon}", 
+    "format-off": "{icon}",
     "format-connected":"{icon}",
     "format-icons":{
         "on":"󰂯",
@@ -50,7 +50,7 @@
     "tooltip": false,
     "exec": "playerctl metadata --format='{{ artist }} - {{ title }}'",
     "on-click": "playerctl play-pause",
-    "max-length": 50
+    "max-length": 40
   },
 
   "clock": {
@@ -82,13 +82,13 @@
     "format": "  {used:0.1f}G/{total:0.1f}G",
     "tooltip-format": "Memory"
   },
-  
+
   "backlight": {
         "format": "{icon}  {percent}%",
         "format-icons": ["","󰃜", "󰃛", "󰃞","󰃝","󰃟","󰃠"],
         "tooltip": false
   },
-  
+
   "pulseaudio": {
     "format": "{icon}  {volume}%",
     "format-muted": "",
@@ -114,7 +114,7 @@
         // "format-full": "",
         "format-icons": ["", "", "", "", ""]
   },
-  
+
   "custom/lock": {
   "tooltip": false,
   "on-click": "sh -c '(sleep 0s; hyprlock)' & disown",
