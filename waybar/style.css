@@ -20,7 +20,9 @@
 #workspaces,
 #custom-music,
 #cpu {
-  background-color: #3a3d4b;
+  /* make the module with 0.8 opacity */
+  opacity: 0.8;
+  background-color: #1a1b26;
   padding: 0.3rem 0.7rem;
   margin: 5px 0px; /* 5px top/bottom margin, 0px left/right (base for individual control) */
   border-radius: 6px; /* These modules are always rounded */
@@ -58,7 +60,7 @@
 }
 
 #workspaces button.active {
-  color: #99d1db;
+  color: #9cd1bb;
   background-color: rgba(153, 209, 219, 0.1);
   box-shadow: inset 0 0 0 1px rgba(153, 209, 219, 0.2);
 }
@@ -70,7 +72,8 @@
 
 /* --- Center Module (Individual, Fully Rounded Block - With Simple Hover) --- */
 #clock {
-  background-color: #3a3d4b;
+  opacity: 0.8;
+  background-color: #1a1b26;
   padding: 0.3rem 0.7rem;
   margin: 5px 0px;
   border-radius: 6px; /* This module is always rounded */
@@ -92,7 +95,8 @@
 #network,
 #memory,
 #battery {
-  background-color: #3a3d4b;
+  opacity: 0.8;
+  background-color: #1a1b26;
   padding: 0.3rem 0.7rem;
   margin: 5px 0px;
   border-radius: 0;
@@ -103,8 +107,9 @@
 }
 
 #custom-lock {
-  background-color: #3a3d4b;
-  padding: 0.7rem;
+  opacity: 0.8;
+  background-color: #1a1b26;
+  padding: 0.3rem 0.7rem;
   margin: 5px 0px;
   margin-left: 5px;
   margin-right: 7px;
@@ -145,8 +150,9 @@
 }
 
 #clock {
-  color: #99d1db;
-  font-weight: 500;
+  color: #eaf2f1;
+  /* make font bold */
+  font-weight: 700;
 }
 
 #pulseaudio {
@@ -175,10 +181,10 @@
   color: #2196f3;
 }
 #bluetooth.connected {
-  color: #99d1db;
+  color: #9cd1bb;
 }
 #battery {
-  color: #99d1db;;
+  color: #9cd1bb;;
 }
 #battery.charging {
   color: #a6d189;
@@ -189,7 +195,7 @@
 
 /* --- Tooltip Styles --- */
 tooltip {
-  background-color: #3a3d4b;
+  background-color: #1a1b26;
   color: #dddddd;
   padding: 5px 12px;
   margin: 5px 0px;
