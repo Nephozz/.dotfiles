@@ -20,6 +20,8 @@ return {
                 filter = "octagon"
             })
             vim.cmd("colorscheme monokai-pro")
+
+            vim.api.nvim_set_hl(0, "Directory", {fg = "#9cd1bb", bold = true })
         end
     }
 }
