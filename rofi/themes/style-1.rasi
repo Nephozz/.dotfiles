@@ -62,6 +62,9 @@ window {
     x-offset:                    0px;
     y-offset:                    0px;
 
+    border-color:                @active;
+    border:                      2;
+
     /* properties for all widgets */
     enabled:                     true;
     border-radius:               10px;
@@ -88,9 +91,9 @@ mainbox {
 imagebox {
     padding:                     20px;
     background-color:            transparent;
-    background-image:            url("~/Pictures/peakpx.jpg", height);
+    background-image:            url("~/.dotfiles/wallpapers/hoenn-green-setting-night.jpg", height);
     orientation:                 vertical;
-    children:                    [ "inputbar", "dummy", "mode-switcher" ];
+    children:                    [ "inputbar", "pokebox", "mode-switcher" ];
 }
 
 listbox {
@@ -101,8 +104,10 @@ listbox {
     children:                    [ "message", "listview" ];
 }
 
-dummy {
-    background-color:            transparent;
+pokebox {
+    padding: 20px;
+    background-color:           transparent;
+    background-image:           url("~/.dotfiles/rofi/themes/latias.png", width);
 }
 
 
