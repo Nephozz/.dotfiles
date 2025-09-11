@@ -36,6 +36,7 @@ return {
                 "marksman",
                 "ocamllsp",
                 "jedi_language_server",
+                "glsl_analyzer",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
